@@ -6,6 +6,20 @@ body {
 	margin-top:0;
 	
 }
+#header-img {
+    position: relative;
+    width: 30%;
+    height: 30%;
+}
+ul{
+    display: inline-block;
+    text-align: center;
+}
+@media (max-width: 600px){
+header {
+    flex-wrap: wrap;
+}
+}
 header {
     position: fixed;
     top: 0;
@@ -36,16 +50,22 @@ nav {
 	margin: 0 auto;
 }
 #nav-bar {
-	font-weight: 400px;
+    display:flex;
+    font-weight: 400px;
 }
 a {
 	color: #000000;
 	text-decoration: none;
 }
+a:hover{
+    cursor: pointer;
+    color: #9c7904;
+}
 .nav-link {
-	display: inline-block;
+	padding-left: 10px
 }
 #sec-block {
+    padding-top:50px;
     display: flex;
     flex-direction: column;
     align-items: center;

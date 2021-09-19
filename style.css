@@ -1,6 +1,6 @@
 body {
 	background-color: #eee;
-	font-family: sans-serif, "Helvetica Neue";
+	font-family: sans-serif, Arial, "Helvetica Neue";
 }
 .page-wrapper {
 	margin-top:0;
@@ -73,4 +73,15 @@ a:hover{
     text-align: center;
     height: 200px;
     margin-top: 50px;
+}
+.img-product {
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.img-detail{
+    margin: auto;
+    width: 80%;
 }

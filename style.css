@@ -85,3 +85,8 @@ a:hover{
     margin: auto;
     width: 80%;
 }
+.video-class{
+    width: 50%;
+    margin: auto;
+    align-items: center;
+}

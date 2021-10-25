@@ -29,6 +29,7 @@ header {
     justify-content: space-around;
     align-items: center;
     background-color: #eee;
+    width: 100%;
 }
 li {
 	list-style: none;
